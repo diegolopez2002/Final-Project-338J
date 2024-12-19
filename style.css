@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2e3b55;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1c2539;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    font-size: 16px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#status {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#player-hand, #dealer-hand {
+    margin: 10px 0;
+}
